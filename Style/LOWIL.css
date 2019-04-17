@@ -2,20 +2,20 @@
     text-align: center;
 }
 body{
-    filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='coral',endColorstr='#ffffff',GradientType=0); /* IE6-9 */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,coral), color-stop(100%,#e19fff)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top,  coral 0%,#e19fff 100%); /* Chrome10+,Safari5.1+ */
-    background: -moz-linear-gradient(top,  coral 0%, #e19fff 100%); /* FF3.6+  */
+    background: -webkit-linear-gradient(left,  coral 0%,#e19fff 100%); /* Chrome10+,Safari5.1+ */
     height:1500px;
 }
 abbr{
     text-decoration: underline;
 }
 .shadowEffect{
-    text-shadow: 3px 3px 2px #ff82d9;
+    text-shadow: 3px 3px 2px #6b6b6b;
 }
 .pictureshadow{
-    -moz-box-shadow: 0 0 10px #777777;
-    -webkit-box-shadow: 0 0 10px #777777;
-    box-shadow: 0 0 10px #777777;
+    -moz-box-shadow: 0 0 20px #e598e7;
+    -webkit-box-shadow: 0 0 20px #e598e7;
+    box-shadow: 0 0 20px #e598e7;
+}
+.imageElements{
+    vertical-align: center;
 }
