@@ -1,21 +1,30 @@
 *{
-    text-align: center;
+    text-align: left;
 }
 body{
-    background: -webkit-linear-gradient(left,  coral 0%,#e19fff 100%); /* Chrome10+,Safari5.1+ */
-    height:1500px;
+    background: -webkit-linear-gradient(left,  coral 0%,#e19fff 100%);
 }
 abbr{
     text-decoration: underline;
 }
 .shadowEffect{
-    text-shadow: 3px 3px 2px #6b6b6b;
+    text-shadow: 2px 2px 1px #6b6b6b;
 }
 .pictureshadow{
     -moz-box-shadow: 0 0 20px #e598e7;
     -webkit-box-shadow: 0 0 20px #e598e7;
     box-shadow: 0 0 20px #e598e7;
 }
-.imageElements{
-    vertical-align: center;
+.profile{
+    border-radius: 50px;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.emphasize{
+    text-align: center;
+    background-color: rgba(246, 255, 126, 0.931);
 }
