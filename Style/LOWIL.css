@@ -28,5 +28,12 @@ abbr{
     background-color: rgba(246, 255, 126, 0.931);
 }
 footer{
-    background-color: #6b6b6b;
+    background-color: inherit;
+    font-weight: bold;
+    font-size: 20px;
+}
+.footer__icon{
+    vertical-align: middle;
+    width: 35px;
+    height: 35px;
 }
